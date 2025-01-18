@@ -20,7 +20,7 @@ public class Annotations {
         System.out.println("This is test case A");
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void BtestCase() {
         System.out.println("This is test case B");
     }

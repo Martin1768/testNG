@@ -20,7 +20,7 @@ public class Priority {
         System.out.println("This is test case A");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = "smoke")
     public void BtestCase() {
         System.out.println("This is test case B");
     }
